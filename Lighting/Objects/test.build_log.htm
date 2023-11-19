@@ -1,0 +1,89 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.34.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 11, 11, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.34.0.0
+Toolchain Path:  E:\keil\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.16
+Assembler:       Armasm.exe V6.16
+Linker/Locator:  ArmLink.exe V6.16
+Library Manager: ArmAr.exe V6.16
+Hex Converter:   FromElf.exe V6.16
+CPU DLL:         SARMCM3.DLL V5.34.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.4.0
+Target DLL:      UL2CM3.DLL V1.163.9.0
+Dialog DLL:      TARMCM1.DLL V1.14.3.0
+ 
+<h2>Project:</h2>
+C:\Users\wang_\Desktop\test\test.uvprojx
+Project File Date:  06/10/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.16', folder: 'E:\keil\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+assembling startup_ARMCM0.s...
+compiling system_ARMCM0.c...
+compiling retarget_io.c...
+linking...
+.\Objects\test.axf: Error: L6218E: Undefined symbol main (referred from __rtentry2.o).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 1 error messages.
+".\Objects\test.axf" - 1 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: USART Version: 2.4.0
+   * Component: Custom Version: 1.0.0
+   * Component: CORE Version: 5.4.0
+   * Component: Startup Version: 1.2.2
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.ARM_Compiler.1.6.3.pack
+                Keil.ARM_Compiler.1.6.3
+                Keil ARM Compiler extensions for ARM Compiler 5 and ARM Compiler 6
+   * Component: STDIN Variant: Breakpoint Version: 1.2.0
+   * Component: STDOUT Variant: Breakpoint Version: 1.2.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  E:\keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  E:\keil\ARM\CMSIS\5.7.0\CMSIS\Driver\Include
+  E:\keil\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::CMSIS Driver:USART:2.4.0 (API)
+      Include file:  CMSIS\Driver\Include\Driver_USART.h
+
+   * Component: ARM::CMSIS Driver:USART:Custom:1.0.0
+      Include file:  CMSIS\Driver\Include\Driver_USART.h
+      Source file:   CMSIS\Driver\DriverTemplates\Driver_USART.c
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+
+   * Component: ARM::Device:Startup:1.2.2
+      Include file:  Device\ARM\ARMCM0\Include\ARMCM0.h
+      Source file:   Device\ARM\ARMCM0\Source\ARM\startup_ARMCM0.s
+      Source file:   Device\ARM\ARMCM0\Source\system_ARMCM0.c
+
+   * Component: Keil.ARM Compiler::Compiler:I/O:STDIN:Breakpoint:1.2.0
+      Source file:   Source\retarget_io.c
+
+   * Component: Keil.ARM Compiler::Compiler:I/O:STDOUT:Breakpoint:1.2.0
+      Source file:   Source\retarget_io.c
+Target not created.
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [.\Objects\code.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image .\Objects\code.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Thu Jun 10 04:08:34 2021
+<BR><P>
+<H3>Maximum Stack Usage =          0 bytes + Unknown(Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[1]">BTN_Handler</a> from main.o(.text) referenced from main.o(RESET)
+ <LI><a href="#[3]">Reset_Handler</a> from main.o(.text) referenced from main.o(RESET)
+ <LI><a href="#[2]">TIMER_Handler</a> from main.o(.text) referenced from main.o(RESET)
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[3]"></a>Reset_Handler</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, main.o(.text))
+<P>
+<H3>
+Local Symbols
+</H3>
+<P><STRONG><a name="[1]"></a>BTN_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, main.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> main.o(RESET)
+</UL>
+<P><STRONG><a name="[2]"></a>TIMER_Handler</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, main.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> main.o(RESET)
+</UL><P>
+<H3>
+Undefined Global Symbols
+</H3><HR></body></html>

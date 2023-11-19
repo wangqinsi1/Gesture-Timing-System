@@ -1,0 +1,21 @@
+Dependencies for Project 'test', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (E:\keil\Keil\ARM_Compiler\1.6.3\Source\retarget_io.c)(0x584E29BE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IE:/keil/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IE:/keil/ARM/CMSIS/5.7.0/CMSIS/Driver/Include-IE:/keil/ARM/CMSIS/5.7.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM0 -D_RTE_-o ./objects/retarget_io.o -MD)
+I (E:\keil\ARM\ARMCLANG\include\string.h)(0x6035A4A8)
+I (E:\keil\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (E:\keil\ARM\ARMCLANG\include\stdio.h)(0x6035A4A8)
+I (E:\keil\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (E:\keil\ARM\ARMCLANG\include\assert.h)(0x6035A4A6)
+I (E:\keil\ARM\ARMCLANG\include\rt_sys.h)(0x6035A4A8)
+I (RTE\_Target_1\RTE_Components.h)(0x60C1BF69)
+F (RTE\Device\ARMCM0\startup_ARMCM0.s)(0x5E8ED12A)(--target=arm-arm-none-eabi -mcpu=cortex-m0 -masm=auto -c-mlittle-endian -gdwarf-3 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-IE:/keil/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IE:/keil/ARM/CMSIS/5.7.0/CMSIS/Driver/Include-IE:/keil/ARM/CMSIS/5.7.0/Device/ARM/ARMCM0/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 534" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"ARMCM0 SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_armcm0.o)
+F (RTE\Device\ARMCM0\system_ARMCM0.c)(0x5E8ED12A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-IE:/keil/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IE:/keil/ARM/CMSIS/5.7.0/CMSIS/Driver/Include-IE:/keil/ARM/CMSIS/5.7.0/Device/ARM/ARMCM0/Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM0 -D_RTE_-o ./objects/system_armcm0.o -MD)
+I (E:\keil\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0\Include\ARMCM0.h)(0x5E8306CE)
+I (E:\keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h)(0x5E8ED122)
+I (E:\keil\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (E:\keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (E:\keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (E:\keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (E:\keil\ARM\ARMCLANG\include\arm_compat.h)(0x5EE13552)
+I (E:\keil\ARM\ARMCLANG\include\arm_acle.h)(0x6035A4A4)
+I (E:\keil\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0\Include\system_ARMCM0.h)(0x5E8ED12A)

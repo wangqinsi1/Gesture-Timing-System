@@ -1,0 +1,6 @@
+--cpu Cortex-M0
+".\objects\top.o"
+--strict --scatter ".\Objects\top.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\top.map" -o .\Objects\top.axf
